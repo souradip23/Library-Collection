@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Library Book Collection</h1>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Search for books..." aria-label="Search for books">
+    </div>
+
+    <!-- New Section: Genres -->
+    <section id="genres">
+        <h2>Genres</h2>
+        <div class="genre-list">
+            <button class="genre-btn" data-genre="fiction">Fiction</button>
+            <button class="genre-btn" data-genre="non-fiction">Non-Fiction</button>
+            <button class="genre-btn" data-genre="science-fiction">Science Fiction</button>
+            <button class="genre-btn" data-genre="fantasy">Fantasy</button>
+            <button class="genre-btn" data-genre="mystery">Mystery</button>
+        </div>
+    </section>
+
+    <!-- New Section: Authors -->
+    <section id="authors">
+        <h2>Popular Authors</h2>
+        <div class="author-list">
+            <div class="author">J.K. Rowling</div>
+            <div class="author">George Orwell</div>
+            <div class="author">Agatha Christie</div>
+            <div class="author">Stephen King</div>
+        </div>
+    </section>
+
+    <!-- Book List Section -->
+    <div id="book-list">
+        <div class="book">
+            <div class="book-inner">
+                <div class="book-front">
+                    <h3>Title: The Great Gatsby</h3>
+                    <p>Author: F. Scott Fitzgerald</p>
+                </div>
+                <div class="book-back">
+                    <p>Genre: Fiction</p>
+                    <p>Pages: 180</p>
+                    <p>Published: 1925</p>
+                </div>
+            </div>
+        </div>
+        <div class="book">
+            <div class="book-inner">
+                <div class="book-front">
+                    <h3>Title: Sapiens</h3>
+                    <p>Author: Yuval Noah Harari</p>
+                </div>
+                <div class="book-back">
+                    <p>Genre: Non-Fiction</p>
+                    <p>Pages: 443</p>
+                    <p>Published: 2011</p>
+                </div>
+            </div>
+        </div>
+        <div class="book">
+            <div class="book-inner">
+                <div class="book-front">
+                    <h3>Title: Dune</h3>
+                    <p>Author: Frank Herbert</p>
+                </div>
+                <div class="book-back">
+                    <p>Genre: Science Fiction</p>
+                    <p>Pages: 412</p>
+                    <p>Published: 1965</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
